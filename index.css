@@ -30,7 +30,7 @@ nav ul li{
 }
 nav ul li a{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
     padding: 10px 13px;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ a.active,a:hover{
     background-color: lightblue;
 } */
 section{
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 70px 0;
 }
 #home{
@@ -54,8 +54,8 @@ section{
     background-size: 100%;
 }
 .hello{
-    margin-left: 10%;
-    margin-top: 15%;
+    margin-left: 5%;
+    margin-top: 12%;
     padding: 0 100px;
     max-width: 1000px;
     font-family: fraunces;
@@ -63,7 +63,7 @@ section{
 }
 .hello h1{
     color: white;
-    font-size: 70px;
+    font-size: 50px;
 }
 .cont{
     text-align: center;
@@ -79,8 +79,8 @@ section{
 }
 .image{
     float: right;
-    height: 580px;
-    width: 520px;
+    height: 500px;
+    width: 1200px;
     border-radius: 50%;
     margin-top: 7%;
     margin-right: 10%;
@@ -95,14 +95,14 @@ section{
     margin-top: 20px;
     margin-left: 15%;
     color: darkblue;
-    font-size: 70px;
+    font-size: 50px;
     font-family: fraunces;
 }
 .container{
-    margin: 15%;
+    margin: 10%;
     margin-top: 5%;
     display: grid;
-    gap: 25px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
     cursor: pointer;
 }
@@ -114,22 +114,22 @@ section{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 .box img{
-    height: 250px;
+    height: 220px;
     width: 100%;
 }
 .box h3{
     color: green;
     padding: 10px 0;
-    font-size: 40px;
+    font-size: 30px;
 }
 .box p{
     color: #777;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 .btn{
     color: green;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid lightgray;
     background-color: lightgray;
 }
@@ -144,16 +144,16 @@ section{
 }
 #contact h1{
     color: #fffffe;
-    font-size: 80px;
+    font-size: 50px;
     margin-top: 35vh;
 }
 #contact .social-medias{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: space-around;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #contact .social-media{
     text-decoration: none;
