@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    background-image: url(https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 80px;
+    width: 100%;
+}
+.logo img{
+    margin: -5px 150px;
+    width: 10%;
+    height: 12vh;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 13px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    /* background: peru; */
+    border-radius: 20px;
+    transition: 0.8s;
+}
+/* body{
+    background-color: lightblue;
+} */
+section{
+    min-height: 90vh;
+    padding: 70px 0;
+}
+#home{
+    display: flex;
+    background-image: url(https://media.istockphoto.com/id/1502846052/photo/textured-soccer-game-field-with-neon-fog-center-midfield.jpg?s=612x612&w=0&k=20&c=LPSo6ps1NfZ_xviL0tmhnnrcLjjFXAQhsYr3qAOfviY=);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hello{
+    margin-left: 10%;
+    margin-top: 15%;
+    padding: 0 100px;
+    max-width: 1000px;
+    font-family: fraunces;
+    
+}
+.hello h1{
+    color: white;
+    font-size: 70px;
+}
+.cont{
+    text-align: center;
+    padding: 20px;
+}
+.cont a{
+    padding: 2%;
+    color: white;
+    margin-left: 5px;
+}
+.cont .social-media:hover{
+    transform: translateY(10px);
+}
+.image{
+    float: right;
+    height: 580px;
+    width: 520px;
+    border-radius: 50%;
+    margin-top: 7%;
+    margin-right: 10%;
+}
+#services{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/11/901/242/football-ronaldo-football-ronaldo-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#services h1{
+    margin-top: 20px;
+    margin-left: 15%;
+    color: darkblue;
+    font-size: 70px;
+    font-family: fraunces;
+}
+.container{
+    margin: 15%;
+    margin-top: 5%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    cursor: pointer;
+}
+.box{
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: skyblue;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.box img{
+    height: 250px;
+    width: 100%;
+}
+.box h3{
+    color: green;
+    padding: 10px 0;
+    font-size: 40px;
+}
+.box p{
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: green;
+    font-size: 25px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+.box:hover{
+    transform: scale(1.03);
+}
+#contact{
+    text-align: center;
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/11/21/16690544280122.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#contact h1{
+    color: #fffffe;
+    font-size: 80px;
+    margin-top: 35vh;
+}
+#contact .social-medias{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+#contact .social-media{
+    text-decoration: none;
+    color: #fffffe;
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+}
+#contact .social-media:hover{
+    transform: translateY(10px);
+}
+footer{
+    text-align: center;
+    background-color: #232946;
+    border-top: 3px solid var(--primary);
+    color: #fffffe;
+    font-size: 25px;
+    padding: 30px;
+}
