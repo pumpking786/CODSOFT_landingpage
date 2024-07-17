@@ -79,8 +79,8 @@ section{
 }
 .image{
     float: right;
-    height: 500px;
-    width: 1200px;
+    height: 480px;
+    width: 1100px;
     border-radius: 50%;
     margin-top: 7%;
     margin-right: 10%;
@@ -172,6 +172,6 @@ footer{
     background-color: #232946;
     border-top: 3px solid var(--primary);
     color: #fffffe;
-    font-size: 25px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 15px;
 }
